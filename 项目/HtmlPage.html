@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>天勤测试考核</title>
+    <script src="https://libs.cdnjs.net/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div>
+            <span class="logo">LOGO</span>
+            <span id="out">Log Out</span>
+        </div>
+    </div>
+    <div id="content">
+        <div id="con_top">
+            <div id="AO">
+                <p style="font-size:30px;">Audience Overview</p>
+                <p style="font-size:15px;">Roseville,CA</p>
+            </div>
+            <div class="nav">
+                <ul class="navul">
+                    <li><a class="nav_a" href="#">DASHBOARD</a></li>
+                    <li><a class="nav_a" href="#">PROJECTS</a></li>
+                    <li><a class="nav_a" href="#">CALENDAR</a></li>
+                    <li><a class="nav_a" href="#">MAILBOX</a></li>
+                    <li><a class="nav_a" href="#">SETTINGS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="con_mid">
+            <div class="carousel">
+                <div class="wrap" style="left: -560px">
+                    <img src="./img/5.jpg" alt="">
+                    <img src="./img/1.jpg" alt="">
+                    <img src="./img/2.jpg" alt="">
+                    <img src="./img/3.jpg" alt="">
+                    <img src="./img/4.jpg" alt="">
+                    <img src="./img/5.jpg" alt="">
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                </div>
+                <a href="javascript:;" class="arrow arrow_left">&lt;</a>
+                <a href="javascript:;" class="arrow arrow_right">&gt;</a>
+            </div>
+            <div id="font">
+                <div id="pad">
+                    <div id="left">Support Requests</div>
+                    <div id="right">
+                        <div>View All</div>
+                    </div>
+                </div>
+                <br /><br /><br />
+                <div id="hr"><hr /></div>
+                <table>
+                    <tr id="head">
+                        <td class="one">TIME</td>
+                        <td class="two">USER NAME</td>
+                        <td class="three">STATUS</td>
+                    </tr>
+                    <tr>
+                        <td class="one">9:45pm</td>
+                        <td class="two">info@design.com</td>
+                        <td class="three"><div class="bg_green">Solved</div></td>
+                    </tr>
+                    <tr>
+                        <td class="one">9:45pm</td>
+                        <td class="two">info@design.com</td>
+                        <td class="three"><div class="bg_green">Solved</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="con_chart">
+            <div id="curve"></div>
+            <div id="OtherCharts">
+                <div id="pie"></div>
+                <div id="bar"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="cont">
+            <div>
+                <span class="logo">LOGO</span>
+                <ul>
+                    <li><a>NEWS</a></li>
+                    <li><a>SPORT</a></li>
+                    <li><a>WEATHER</a></li>
+                    <li><a>FUTURE</a></li>
+                    <li><a>TRAVEL</a></li>
+
+                    <li><a>CHANNELS</a></li>
+                    <li><a>CULTURE</a></li>
+                    <li><a>AUTOS</a></li>
+                    <li><a>FOOD</a></li>
+                    <li><a>RADIO</a></li>
+                    
+                    <li><a>OVERVIEW</a></li>
+                    <li><a>NATURE</a></li>
+                    <li><a>LOCAL</a></li>
+                    <li><a>EARTH</a></li>
+
+                    <li><a>TIMELINE</a></li>
+                    <li><a>MUSIC</a></li>
+                    <li><a>SHOP</a></li>
+                    <li><a>TV</a></li>
+                </ul>   
+            </div>
+        </div>
+        <div id="empty"></div>
+    </div>
+    <!--引入css、js文件-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="javascript.js" type="text/javascript"></script>
+    <script>SliderEffect()</script>
+    <script>Carousel()</script>  
+    <script>CurveChart()</script>
+    <script>PieChart()</script>
+    <script>BarChart()</script>
+</body>
+</html>

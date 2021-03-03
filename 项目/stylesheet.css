@@ -1,0 +1,267 @@
+﻿body {
+    width:1440px;
+    height:1666px;
+    margin:0 auto;
+} 
+#top{
+    width:1440px;
+    height:35px;
+}
+#top div{
+    margin:15px 150px;
+}
+#top span{
+    background-color:#ff0000;
+    text-align:center;
+    font-family:Arial;
+    letter-spacing:1pt;
+    color:#ffffff;
+}
+.logo{
+    width:105px;
+    height:30px;
+    font-size:12px;
+    line-height:30px;
+    float:left;
+}
+#top #out{
+    width:110px;
+    height:40px;
+    float:right;
+    font-size:13px;
+    line-height:40px;
+}
+#content{
+    width:1440px;
+    height:1273px;
+    background-color:#f5f8f9;
+}
+#con_top{
+    width:1140px;
+    height:90px;
+    margin:25px 150px;
+    padding-top:40px;
+}
+#AO{
+    float:left;
+}
+#AO p{
+    margin:0;
+    line-height:40px;
+}
+.nav{
+    float:right;
+    padding-top:30px;
+}
+.navul{
+    position: relative;
+    float: left;
+}
+.nav li{
+    float: left;
+    height: 35px;
+    margin-right:20px;
+    position: relative;
+    display:block;
+}
+.nav_a{
+    font-size:13px; 
+    font-weight:bold;
+    text-decoration:none;
+    color: #000;
+}
+#con_mid{
+    width:1140px;
+    height:300px;
+    margin:25px 150px;
+    padding-bottom:20px;
+    margin-bottom:0px;
+}
+.carousel{
+    position:relative;
+    width:560px;
+    height:300px;
+    float:left;
+    overflow:hidden;
+    border:0.5px solid #fff;
+}
+.wrap{
+    position:absolute;
+    width:3920px;
+    height:299px;
+    z-index:1;
+}
+.carousel .wrap img{
+    float: left;
+    width: 560px;
+    height: 299px;
+}
+.carousel .buttons{
+    position:absolute;
+    right:205px;
+    bottom:20px;
+    width:150px;
+    height:10px;
+    z-index: 2;
+}
+.carousel .buttons span{
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.carousel .arrow{
+    position: absolute;
+    top: 35%;
+    color: green;
+    padding: 0px 14px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+    display: none;
+}
+.carousel .arrow_left{
+    left: 10px;
+}
+.carousel .arrow_right{
+    right: 10px;
+}
+.carousel:hover .arrow{
+    display: block;
+}
+.carousel .arrow:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+#font{
+    width:560px;
+    height:300px;
+    background-color:#fff;
+    float:right;
+}
+#font #pad{
+    padding:30px 50px;
+    padding-bottom:0px;
+}
+#font #left{
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+}
+#font #right{
+    float:right;
+}
+#font #right div{
+    text-align:center;
+    font-size:13px;
+    line-height:40px;
+    border:2px solid #828a90;
+    width:95px;
+    height:40px;
+}
+#font hr{
+    height:1px;
+    background-color:#f5f8f9;
+}
+#font table{
+    width:560px;
+    height:170px;
+    padding:10px 50px;
+    padding-bottom:0px;
+}
+#font #head{
+    font-size:15px;
+    font-weight:bold;
+}
+#font .one{
+    width:30%;
+}
+#font .two{
+    width:65%;
+}
+#font .three{
+    width:50%;
+    text-align:right;
+}
+#font .three .bg_green{
+    width:80px;
+    height:25px;
+    color:#f5f8f9;
+    text-align:center;
+    padding-top:5px;
+    background-color:#22871b;
+}
+#con_chart{
+   padding:0 150px;
+}
+#con_chart #curve{
+   width: 1140px;
+   height: 340px;
+   padding-bottom:0px;
+   padding-top:20px;
+   background-color: #fff;
+   margin-bottom:20px;
+}    
+#con_chart #OtherChart{
+   width: 1140px;
+   height:340px;
+}
+#con_chart #pie{
+   padding-top:20px;
+   width:560px;
+   height:340px;
+   float:left;
+   background-color:#fff;
+}
+#con_chart #bar{
+   padding-top:20px;
+   width:560px;
+   height:340px;
+   float:right;
+   background-color:#fff;
+}
+#footer{
+    width:1440px;
+    height:293px;
+}
+#footer #cont{
+    height:253px;
+    padding:0 150px;
+    background-color:#171717;
+}
+#footer #cont div{
+    padding-top:50px;
+}
+#footer #cont span{
+    margin-top:25px;
+    background-color:#ff0000;
+    text-align:center;
+    font-family:Arial;
+    letter-spacing:1pt;
+    color:#ffffff;
+}
+#footer ul{
+    width:1000px;
+    margin-left:150px;
+}
+#footer li{
+    width:100px;
+    float:left;
+    margin-right:100px;
+    display:block;
+}
+#footer a{
+    font-size:13px;
+    line-height:28px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+}
+#footer #empty{
+    height:40px;
+    background-color:#000;
+}
